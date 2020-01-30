@@ -7,7 +7,7 @@ import (
 
 var MAX uint64 = 1000000000
 
-type Res struct{//this struct help communicating with the channel eg. weather channel will terminate, or what number it calculated
+type Res struct{//this struct helps communicating with the channel eg. if channel will terminate, or what number it calculated
 	n uint64
 	nr uint64
 	nnr uint64
